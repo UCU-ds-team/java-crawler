@@ -8,7 +8,6 @@ import java.util.List;
 public class Parser {
     WebDriver browser;
 
-
     /**
      * Login into given account using current session.
      *
@@ -61,7 +60,7 @@ public class Parser {
      * @param n the number of posts to be scraped
      * @return last n user's posts as array of json objects
      */
-    public JSONArray getUserPosts(Integer n){
+    public JSONArray getUserPosts(Integer n) {
 
     }
 }
