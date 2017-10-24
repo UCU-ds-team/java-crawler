@@ -19,9 +19,10 @@ public class Parser {
 
     /**
      * Checks if the user in current session is logged in.
+     * @return boolean value
      */
     public boolean isLoggedIn() {
-        return true;
+
     }
 
     /**
@@ -55,12 +56,13 @@ public class Parser {
     }
 
     /**
-     * Get last n user's posts by given url
+     * Get last n user's posts by given user's id on facebook
      *
+     * @param id user's id on facebook
      * @param n the number of posts to be scraped
      * @return last n user's posts as array of json objects
      */
-    public JSONArray getUserPosts(Integer n) {
+    public JSONArray getUserPosts(String id, Integer n) {
 
     }
 }
